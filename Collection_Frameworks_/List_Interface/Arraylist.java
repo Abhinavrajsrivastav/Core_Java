@@ -1,3 +1,4 @@
+package List_Interface;
 // package List_interface;
 
 import java.util.*;
@@ -13,6 +14,7 @@ public class Arraylist{
         al1.add(30);
         al1.add(40);
         al1.add(50);
+        
 
         System.out.println(al1);
 
