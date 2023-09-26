@@ -42,7 +42,7 @@ System.out.println("StringBuilder: ");
         System.out.println(str5.hashCode());
         System.out.println("String capacity at SitaArchit: "+str4.capacity());
 
-
+   
 
     }
 }

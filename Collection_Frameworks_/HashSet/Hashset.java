@@ -30,7 +30,7 @@ public class Hashset {
         }
 
         // Checking the size of the HashSet
-        System.out.println("Size of HashSet: " + hashSet.size());
+        System.out.println("Size of HashSet: " + hashSet.size()) ;
 
         // Clearing the HashSet
         hashSet.clear();
