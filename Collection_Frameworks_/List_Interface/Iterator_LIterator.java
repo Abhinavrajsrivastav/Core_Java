@@ -45,6 +45,12 @@ public class Iterator_LIterator {
         while(iterate1.hasPrevious()){
             System.out.println(iterate1.previous());
         }
+
+       
+            
+            
+        
+
     }
 
     
