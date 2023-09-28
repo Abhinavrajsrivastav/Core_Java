@@ -12,6 +12,7 @@ public class Arraydeque_Methods {
         deque.offerFirst("Front2");
         deque.offerFirst("Front3");
 
+        
         // Add elements to the end of the deque
         deque.addLast("End1");
         deque.offerLast("End2");
