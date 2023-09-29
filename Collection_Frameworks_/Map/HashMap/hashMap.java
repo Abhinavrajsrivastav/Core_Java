@@ -15,9 +15,9 @@ public class hashMap {
         hashMap.put("c", 3);
         hashMap.put("d", 4);
         hashMap.put("e", 5);
-        hashMap.put("f", 6);
+        hashMap.put("f", 6); 
 
-        // Printing the HashMap (unordered)...
+        //  Printing the HashMap (unordered)...
         System.out.println("HashMap: " + hashMap);
 
         // Checking if a Key exists...
