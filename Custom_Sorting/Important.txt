@@ -1,0 +1,7 @@
+1. why toString Overriding method-
+However, if you have a list of custom objects, as in your previous examples with the Person class,
+ the default behavior of printing the list will call the toString method of those custom objects. 
+ If the toString method is not overridden in the custom class, you will get the default behavior, 
+ which includes the class name and hash code, as mentioned earlier.
+
+
