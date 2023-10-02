@@ -11,4 +11,4 @@ Q2. Collections.sort(list, ageComparator); ?
 Ans- Here in comparator we can create as much custom sorting techique or manner as much we want.
 
 Q3. Collections.sort(Person); ?
-Ans- Here we would be using only one manner of sorting an object which is defined in the same 'person' class.
+Ans- Here we would be using only one manner of sorting an object which is defined in the same 'person' class .
