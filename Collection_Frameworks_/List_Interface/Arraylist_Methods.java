@@ -42,8 +42,8 @@ public class Arraylist_Methods {
         boolean containsGreen = colors.contains("Green");
         System.out.println("Does ArrayList contain 'Green'? " + containsGreen);
 
-        // Clear all elements from the ArrayList
+        // Clear all elements from the  ArrayList
         colors.clear();
-        System.out.println("ArrayList after clearing: " + colors);
+        System.out.println("ArrayList after clearing: " + colors); 
     }
 }
