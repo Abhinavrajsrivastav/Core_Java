@@ -4,19 +4,31 @@ import java.io.IOException;
 import java.io.*;
 public class file {
     public static void main(String[] args) throws IOException{
-        // Create a new File object representing a file named "example.txt"
-        File file = new File("example.txt");
 
-                //Check if file exists
-                System.out.println("Is file exist: ? " + file.exists());
-                System.out.println("File created successfully.");
-                //Get file name
-                System.out.println("File name: " + file.getName());
-                //Get absolute path
-                System.out.println("File path: " + file.getAbsolutePath());
-                //is it a file 
-                System.out.println("Is it a file? " + file.isFile());
-                //is it a directory
+        //creating a dir object...
+        File dir = new File("Hello!");
+
+        //making a new directory
+        dir.mkdir();
+
+        //creating a new File object inside dir directory...
+        File file1 = new File(dir, "file1.txt");
+
+        //creating a new file...
+        file1.createNewFile();
+
+        //creating an object of FileWriter class and passing file1 as object...
+        FileWriter fw = new FileWriter(file1, true); 
+
+        //writing in the file...
+        fw.write("Hello World\n");
+        fw.write("This is a file1\n");
+
+        //flushing the file... flushing means to clear the file...
+        fw.flush();
+
+        //closing the file... closing means to close the file...
+        fw.close();
     }
 }
 
