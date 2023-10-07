@@ -14,7 +14,7 @@ public class mergesort {
         // Merge two subarrays of arr[]
         // First subarray is arr[l..m]
         // Second subarray is arr[m+1..r]
-        public static void merge(int[] arr, int l, int m, int r) {
+        public static void merge(int[] arr, int l, int m, int r)  {
             // Find sizes of two subarrays to be merged
             int n1 = m - l + 1;
             int n2 = r - m;
