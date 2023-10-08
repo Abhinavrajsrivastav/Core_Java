@@ -14,13 +14,16 @@ public class Arraydeque_Methods {
 
         
         // Add elements to the end of the deque
-        deque.addLast("End1");
+        // deque.addLast("End1");
+        deque.push("End1");
         deque.offerLast("End2");
         deque.offerLast("End3");
 
         // Print the deque
         System.out.println("ArrayDeque: " + deque);
 
+        //Searching a element...
+        System.out.println("Searching a element: " + deque.contains("End1"));
         // Remove and retrieve elements from the front
         String removedFront1 = deque.removeFirst();
         String removedFront2 = deque.pollFirst();
