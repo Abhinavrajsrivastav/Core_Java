@@ -7,7 +7,7 @@ public class Arraydeque_Methods {
         // Create an ArrayDeque of Strings
         ArrayDeque<String> deque = new ArrayDeque<>();
 
-        // Add elements to the front of the deque
+        //  Add elements to the front of the deque
         deque.addFirst("Front1");
         deque.offerFirst("Front2");
         deque.offerFirst("Front3");
