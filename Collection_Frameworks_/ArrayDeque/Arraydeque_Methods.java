@@ -14,7 +14,7 @@ public class Arraydeque_Methods {
 
         
         // Add elements to the end of the deque
-        // deque.addLast("End1");
+        deque.addLast("End0");
         deque.push("End1");
         deque.offerLast("End2");
         deque.offerLast("End3");
