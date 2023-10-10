@@ -1,0 +1,13 @@
+1.what is thread ?
+In Java, a thread is a lightweight process that enables concurrent execution of two 
+or more parts of a program for maximum utilization of CPU. Threads are independent, a
+nd each thread runs concurrently with other threads. Java threads are managed by the Java
+ Virtual Machine (JVM) and are a fundamental part of the Java platform.
+
+ 2. what is multi threading ?
+Multithreading is a Java feature that allows concurrent execution of two 
+or more parts of a program for maximum utilization of CPU. Each part of such program
+ is called a thread. So, threads are light-weight processes within a process.
+
+ 3.Need of multi threading ?
+Multithreading is mostly used in games, animation etc. to make a program faster
