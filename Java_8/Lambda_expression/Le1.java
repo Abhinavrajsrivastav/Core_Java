@@ -7,6 +7,7 @@ interface A{
 }
 public class Le1 {
     public static void main(String[] args) {
+        //Lambda expression
         A obj = () -> System.out.println("Hello");
         obj.show();
     }

@@ -1,13 +1,14 @@
 
 //Default constructor...
-class A{
+package Constructors;
+class AA{
    public int age;
    public String name;
 }
 public class lec_0 {
     public static void main(String[] args){
       
-       A obj = new A();
+       AA obj = new AA();
        System.out.println(obj.name+" age is "+obj.age);
     }
 }
