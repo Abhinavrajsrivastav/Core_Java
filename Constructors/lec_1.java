@@ -1,4 +1,4 @@
-package Constructor;
+package Constructors;
 class Student{
     private int age;
     private String name;

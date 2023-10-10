@@ -1,4 +1,4 @@
-package Constructor;
+package Constructors;
 
 class Fruits{
     private String name;
