@@ -49,6 +49,6 @@ public class hashMap {
         System.out.println("Values: " + hashMap.values());
 
         //clearing the HashMap...
-        hashMap.clear();
+        hashMap.clear() ;
     }
 }
