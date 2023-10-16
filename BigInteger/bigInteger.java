@@ -19,8 +19,7 @@ public class bigInteger {
         BigInteger a = new BigInteger("2");
         BigInteger b = a.add(BigInteger.valueOf(25));
         
-        int v ;
-        System.out.println(v);
+        
 
         // Exponentiation
         BigInteger power = bigInt1.pow(2);
