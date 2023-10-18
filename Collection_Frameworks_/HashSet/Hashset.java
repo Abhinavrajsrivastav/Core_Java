@@ -6,14 +6,14 @@ public class Hashset {
         // Creating a HashSet of integers
         HashSet<Integer> hashSet = new HashSet<>();
 
-        // Adding elements to the HashSet
+        //  Adding elements to the HashSet
         hashSet.add(5);
         hashSet.add(2);
         hashSet.add(8);
         hashSet.add(1);
         hashSet.add(2); // Duplicate, will be ignored
 
-        // Printing the HashSet (unordered)
+        //  Printing the HashSet (unordered)
         System.out.println("HashSet: " + hashSet);
 
         // Checking if an element exists
