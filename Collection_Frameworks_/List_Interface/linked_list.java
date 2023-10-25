@@ -1,5 +1,7 @@
 package List_Interface;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.LinkedList;
 
 public class linked_list {
@@ -58,7 +60,8 @@ public class linked_list {
 
         System.out.println(ll);
 
-
+        //to sort the linkedlist
+        Collections.sort(null, null);
 
     }
 }
