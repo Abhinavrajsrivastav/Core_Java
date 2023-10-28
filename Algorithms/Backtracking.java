@@ -14,7 +14,7 @@ public class Backtracking {
             return;
         }
         data[index] = arr[i];
-        backtracking(arr, data, index + 1, i + 1, n, r);
+        backtracking(arr, data, index + 1, i + 1, n, r); 
         backtracking(arr, data, index, i + 1, n, r);
     }
 
