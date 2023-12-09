@@ -1,8 +1,8 @@
-package PriorityQue;
+package Queue;
 
 import java.util.PriorityQueue;
 import java.util.Comparator;
-public class Prioriryque {
+public class Prioriryque_class {
 
     public static void main(String[] args) {
         // Create a PriorityQueue of Integers (natural ordering)
