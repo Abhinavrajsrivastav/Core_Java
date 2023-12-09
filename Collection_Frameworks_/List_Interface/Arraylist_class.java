@@ -2,7 +2,7 @@ package List_Interface;
 
 import java.util.ArrayList;
 
-public class Arraylist_Methods {
+public class Arraylist_class {
     public static void main(String[] args) {
         // Create an ArrayList of Strings
         ArrayList<String> colors = new ArrayList<>();

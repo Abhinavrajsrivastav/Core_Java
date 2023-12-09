@@ -4,7 +4,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.LinkedList;
 
-public class linked_list {
+public class linkedList_class {
     public static void main(String[] args) {
         //code of all methods on linkedlist class is same as arraylist class
 
