@@ -4,13 +4,14 @@ import java.util.*;
 
 public class linkedHashmap {
     public static void main(String[] args){
+        System.out.println(args[0]);
         //collection of key-value pairs is called an entry...
         LinkedHashMap<Integer, String> lhm = new LinkedHashMap<>();
 
         //Adding Key and Value pairs to LinkedHashMap...
-        lhm.put(1,"Abdul");
+        lhm.put(1,"Archit");
         lhm.put(4,"Abhinav");
-        lhm.put(5,"Abhishek");
+        lhm.put(5,"Anubhav");
 
         //Printing the LinkedHashMap (ordered)...
         System.out.println("LinkedHashMap: " + lhm);
@@ -23,7 +24,7 @@ public class linkedHashmap {
         System.out.println("Contains key 5? " + lhm.containsKey(5));
 
         //Checking if a Value exists...
-        System.out.println("contains value 'Abdul'? " + lhm.containsValue("Abdul"));
+        System.out.println("contains value 'Anuj'? " + lhm.containsValue("Anuj"));
 
         //Removing a Key...
         String name2 = lhm.remove(5);

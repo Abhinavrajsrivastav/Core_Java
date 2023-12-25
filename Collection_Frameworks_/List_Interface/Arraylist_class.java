@@ -1,11 +1,12 @@
 package List_Interface;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Arraylist_class {
     public static void main(String[] args) {
         // Create an ArrayList of Strings
-        ArrayList<String> colors = new ArrayList<>();
+        List<String> colors = new ArrayList<>();
 
         // Add elements to the ArrayList
         colors.add("Red");

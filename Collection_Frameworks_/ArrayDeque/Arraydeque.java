@@ -14,6 +14,7 @@ public class Arraydeque {
 
         ArrayDeque ad1 = new ArrayDeque();
 
+        //offer() method is same as add() method
         ad1.offer(20);
         ad1.offer(30);
         ad1.offerFirst(10);

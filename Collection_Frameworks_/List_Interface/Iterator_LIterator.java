@@ -31,6 +31,7 @@ public class Iterator_LIterator {
 
 
         //Using iterator and list Iterator...
+        
         //1.
         System.out.println("Iterating ArrayList using iterator");
         Iterator iterate = numbers.iterator();

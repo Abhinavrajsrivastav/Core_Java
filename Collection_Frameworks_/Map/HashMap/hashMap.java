@@ -7,10 +7,10 @@ public class hashMap {
         //collection of key-value pairs is called an entry...
 
         // Creating a HashMap of String keys and Integer values...
-        HashMap<String, Integer> hashMap = new HashMap<>();
+        Map<String, Integer> hashMap = new HashMap<>();
 
         // Adding Key and Value pairs to HashMap...
-        hashMap.put("a", 1);
+        hashMap.put("a", null);
         hashMap.put("b", 2);
         hashMap.put("c", 3);
         hashMap.put("d", 4);
